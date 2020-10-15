@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page"id="cake1Menu">
+
+	<div data-role="header" data-position="fixed">
+        <h1>cake1</h1>
+        <a href="index.html" rel="external"
+            class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
+    </div><!-- /header -->
+
+	<div role="main" class="ui-content" style="text-align: center">
+            <ul data-role="listview" data-inset="true">
+                    <li><a href="#cakes">
+                            <img src="images/cakes1.png">
+                            <span class="ui-li-count" style="color:coral;background-color:black">$200</span>
+                            <h2>cake</h2>
+                            <p>cakes</p></a>
+                        </li>
+                    <li><a href="#">
+                            <img src="images/xmas_cake.png">
+                            <span class="ui-li-count" style="color:coral;background-color :black">$200</span>
+                            <h2>Warning</h2>
+                            <p>xmas</p></a>
+                        </li>
+                    <li><a href="#">
+                             <img src="images/wedding.png">
+                            <span class="ui-li-count" style="color:coral;background-color :black">$200</span>
+                        <h2>Wolfgang Amadeus Phoenix</h2>
+                        <p>wedding</p></a>
+                        </li>
+                    <li><a href="#">
+                            <img src="images/birthday_cake.png">
+                            <span class="ui-li-count" style="color:coral;background-color :black">$200</span>
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>birthday_cake</p></a>
+                        </li>
+                    <li><a href="#">
+                            <img src="images/cookie.png">
+                            <span class="ui-li-count" style="color:coral;background-color :black">$200</span>
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>cookie</p></a>
+                        </li>
+                    </ul>
+                    <div role="main" class="ui-content" style="text-align:center">
+                        <img src="images/cake1" width="30%">
+                    </div><!-- /content -->
+    </div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
+		<h4>&copy; 2020 All rights reversed.</h4>
+	</div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="cakes">
+
+	    <div data-role="header" data-position="fixed">
+            <h1>cakes</h1>
+            <a href="#cake1Menu" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
+	    </div><!-- /header -->
+
+        <div role="main" class="ui-content" style="text-align:center">
+            <img src="images/cakes1.png" width="30%">
+           		    <p><a href="#cake1Menu" data-transition="flip">Back to Menu</a></p>
+	    </div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
